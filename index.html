@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--links-->
+  <link rel="stylesheet" href="public/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <!--container-->
+  <div class="container">
+    <!--image do form-->
+    <div class="image">
+      <img src="public/img/login.svg" alt="">
+    </div>
+    <main class="form">
+      <h1>Register User</h1>
+      <!--form-->
+      <form>
+        <div class="form-control">
+          <label for="nome">Name</label>
+          <input type="text" id="nome" maxlength="20" placeholder="Your name" />
+        </div>
+
+        <div class="form-control">
+          <label for="idade">Email</label>
+          <input type="email" id="email" maxlength="20" placeholder="Your email" />
+        </div>
+
+        <div class="form-control">
+          <label for="telefone">Phone</label>
+          <input type="text" id="phone" maxlength="11" placeholder="Your phone" />
+        </div>
+
+        <!--button para registro-->
+        <div class="form-button">
+          <button>Register</button>
+        </div>
+      </form>
+    </main>
+
+    
+
+    <!--lista de usuários-->
+    <div class="lista">
+      <hr>
+    </div>
+
+    <!--script-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
